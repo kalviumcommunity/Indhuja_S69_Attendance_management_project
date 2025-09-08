@@ -3,10 +3,6 @@
 ````markdown
 # Attendance System – Part 1
 
-**Repo Naming Convention:**  
-`YourName_SquadNumber_ProjectName`  
-Example: `JohnDoe_S42_Attendance_management_project`  
-(No spaces, use underscores.)
 
 ---
 
@@ -36,8 +32,8 @@ Welcome
 
 ## 📸 Screenshots (GDrive links)
 
-* **Output run screenshot:** <GDrive link here>
-* **Git push CLI screenshot:** <GDrive link here>
+* **Output run screenshot:** [<GDrive link here>](https://drive.google.com/file/d/1YXnpGh-yenqyFBTZBtiDqcmKGi3FvtYA/view?usp=sharing)
+* **Git push CLI screenshot:** [<GDrive link here>](https://drive.google.com/file/d/16UKIc-Ifm7XC-IXHU3EBw8iiJ14wSAwE/view?usp=sharing)
 
 ---
 
