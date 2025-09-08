@@ -39,7 +39,7 @@ Welcome
 
 ## 🔗 Pull Request
 
-PR link: <paste your PR URL here>
+PR link: [<paste your PR URL here>](https://github.com/kalviumcommunity/Indhuja_S69_Attendance_management_project/pull/1)
 
 ---
 
