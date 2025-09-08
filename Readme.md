@@ -1,77 +1,46 @@
-
-
-````markdown
-# Attendance System – Part 1
-
+# Attendance System – Part 1 & 2
 
 ---
 
-## 📌 What this contains
+## 📌 Part 1: Project Setup
 - Minimal Java app that prints **Welcome**
 - Folder structure: `src/com/school/Main.java`
 - Instructions to compile & run from project root
-- Git commands for setup and submission
 
----
-
-## ⚙️ How to build & run
+### ⚙️ How to Build & Run (Part 1)
 From the **project root**, run:
 
-```bash
+bash
+
 javac src/com/school/Main.java
+
 java -cp src com.school.Main
-````
 
-Expected output:
 
-```
+Expected Output:
 Welcome
-```
 
 ---
+## 📌 Part 2: Core Domain Modelling
+Defined Student class with studentId, name, setDetails(), and displayDetails() methods
 
-## 📸 Screenshots (GDrive links)
+Defined Course class with courseId, courseName, setDetails(), and displayDetails() methods
 
-* **Output run screenshot:** [<GDrive link here>](https://drive.google.com/file/d/1YXnpGh-yenqyFBTZBtiDqcmKGi3FvtYA/view?usp=sharing)
-* **Git push CLI screenshot:** [<GDrive link here>](https://drive.google.com/file/d/16UKIc-Ifm7XC-IXHU3EBw8iiJ14wSAwE/view?usp=sharing)
+Used arrays of objects in Main.java to manage and display multiple students and courses
 
----
+Introduced basic usage of the this keyword
 
-## 🔗 Pull Request
+### ⚙️ How to Build & Run (Part 2)
+From the project root, run:
 
-PR link: <paste your PR URL here>
+bash
 
----
+javac src/com/school/Student.java src/com/school/Course.java src/com/school/Main.java
 
-## 👨‍💻 Git Commands Used
+java -cp src com.school.Main
 
-```bash
-# Git setup
-git config --global user.name "<your-github-username>"
-git config --global user.email "<your-github-email>"
-
-# Create and switch to branch
-git checkout -b part-01
-
-# Stage and commit
-git add .
-git commit -m "feat: Initial project setup (Part 1)"
-
-# Connect remote (if not already done)
-git remote add origin https://github.com/<your-username>/<YourName_Sxx_Attendance_management_project>.git
-
-# Push branch
-git push -u origin part-01
-```
 
 ---
-
 ## ✍️ Author
-
-* **Name:** Indhuja e
-* **Squad:** 69
-
-```
-
----
-
+Name: Indhuja E
+Squad: 69
