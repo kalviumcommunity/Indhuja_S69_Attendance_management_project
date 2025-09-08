@@ -73,6 +73,32 @@ Course ID: C102, Course Name: Science
 ```
 ---
 
+## 📌 Part 4: Data Encapsulation & Attendance Recording Validation
+
+- Applied encapsulation to Student and Course classes (fields private, public getters added)
+
+- Added AttendanceRecord class with validation for "Present" or "Absent" status
+
+- Used an ArrayList in Main.java to store and display attendance records
+
+- Demonstrated validation warning for invalid status
+
+### ⚙️ How to Build & Run (Part 4)
+
+```bash
+javac src/com/school/*.java
+java -cp src com.school.Main
+
+
+Expected Output Example:
+
+Warning: Invalid attendance status for student ID 1
+Student ID: 1, Course ID: C101, Status: Present
+Student ID: 2, Course ID: C102, Status: Absent
+Student ID: 1, Course ID: C102, Status: Invalid
+```
+--- 
+
 ## ✍️ Author
 ### Name: Indhuja E
 ### Squad: 69

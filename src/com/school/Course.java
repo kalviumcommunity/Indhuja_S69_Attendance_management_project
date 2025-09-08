@@ -5,10 +5,17 @@ public class Course {
     private int courseId;
     private String courseName;
 
-    // Constructor
     public Course(String courseName) {
         this.courseId = nextCourseIdCounter++;
         this.courseName = courseName;
+    }
+
+    public int getCourseId() {
+        return courseId;
+    }
+
+    public String getCourseName() {
+        return courseName;
     }
 
     public void displayDetails() {
